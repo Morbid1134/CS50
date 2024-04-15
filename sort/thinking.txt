@@ -1,0 +1,30 @@
+Behaviour in order
+slowest - Selection sort will go through the entire n list to find the smallest number and has no early exit when already sorted O(n^2)
+fastest - Bubble sort will finish after going over the list once since it will early exit if no swaps were made
+medium  - Merge sort will not early exit and consistently gover over the list O(n log n) times to sort.
+
+2.351s - sort 3
+0.559s - sort 1
+0.699s - sort 2
+
+Behaviour in reverse order
+slowest - bubble sort will go over the list n^2 times until list is sorted since in worst case order
+slowest - selection sort will go over the list n^2 times until list is sorted since in worst case order
+fastest - will take consistently O(n log n) time
+
+5.314s - sort 1
+2.582s - sort 3
+0.690s - sort 2
+
+Behaviour in random order
+fastest/slowest - bubble sort will take anywhere between Omega(n) to O(n^2)
+slowest/slowest - selection sort will take consistently O(n^2)
+medium/medium   - Merge sort will consistently take O(n log n) but sometimes will be beat by bubble sort since no early exit
+
+6.470s - sort 1
+0.712s - sort 2
+2.942s - sort 3
+
+sort 1 (bubble sort)
+sort 2 (merge sort)
+sort 3 (selection sort)

@@ -1,0 +1,12 @@
+sort1 uses: Bubble Sort
+
+How do you know?: From process of elimination and that it should be the fastest algorithm when given a sorted list because of its early exit (which it is). Which let me to deduce that this sorting algorithm is bubble sort.
+
+sort2 uses: Merge Sort
+
+How do you know?: No matter the order, merge sort should consistently take O(n log n) time (and it does) which is usually but not always faster than the other algorithms. Which let me to deduce that this sorting algorithm is merge sort.
+
+sort3 uses: Selection Sort
+
+How do you know?: No matter the order, selection sort should also have a consistent time cooresponding to O(n^2) that is coorespondingly slower than merge sorts when given large datasets to sort. Which let me to deduce that this sorting algorithm is selection sort.
+
